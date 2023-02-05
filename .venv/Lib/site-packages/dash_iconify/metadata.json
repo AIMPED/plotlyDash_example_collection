@@ -1,0 +1,114 @@
+{
+  "src/lib/components/DashIconify.react.js": {
+    "description": "Iconify for Plotly Dash. Visit this site to browse all the available icons: https://icon-sets.iconify.design/",
+    "displayName": "DashIconify",
+    "methods": [],
+    "props": {
+      "className": {
+        "type": {
+          "name": "string"
+        },
+        "required": false,
+        "description": "Often used with CSS to style elements with common properties"
+      },
+      "color": {
+        "type": {
+          "name": "string"
+        },
+        "required": false,
+        "description": "Color"
+      },
+      "flip": {
+        "type": {
+          "name": "enum",
+          "value": [
+            {
+              "value": "\"horizontal\"",
+              "computed": false
+            },
+            {
+              "value": "\"vertical\"",
+              "computed": false
+            }
+          ]
+        },
+        "required": false,
+        "description": "Flip the icon horizontally or vertically"
+      },
+      "height": {
+        "type": {
+          "name": "number"
+        },
+        "required": false,
+        "description": "Icon height"
+      },
+      "icon": {
+        "type": {
+          "name": "string"
+        },
+        "required": true,
+        "description": "Icon name is a string, which has 3 parts: @api-provider : icon-prefix : icon-name\nprovider points to API source. Starts with \"@\", can be empty (empty value is used for public Iconify API).\nprefix is name of icon set.\nname is name of icon."
+      },
+      "id": {
+        "type": {
+          "name": "string"
+        },
+        "required": false,
+        "description": "The ID used to identify this component in Dash callbacks."
+      },
+      "inline": {
+        "type": {
+          "name": "bool"
+        },
+        "required": false,
+        "description": "Toggles inline or block mode."
+      },
+      "rotate": {
+        "type": {
+          "name": "enum",
+          "value": [
+            {
+              "value": "0",
+              "computed": false
+            },
+            {
+              "value": "1",
+              "computed": false
+            },
+            {
+              "value": "2",
+              "computed": false
+            },
+            {
+              "value": "3",
+              "computed": false
+            }
+          ]
+        },
+        "required": false,
+        "description": "Rotates icon, 0: 0 deg, 1: 90 deg, 2: 180 deg, 3: 270 deg"
+      },
+      "setProps": {
+        "type": {
+          "name": "func"
+        },
+        "required": false,
+        "description": "Dash-assigned callback that should be called to report property changes\nto Dash, to make them available for callbacks."
+      },
+      "style": {
+        "type": {
+          "name": "object"
+        },
+        "required": false,
+        "description": "Inline style"
+      },
+      "width": {
+        "type": {
+          "name": "number"
+        },
+        "required": false,
+        "description": "Icon width"
+      }
+    }
+  }
+}

@@ -1,0 +1,14 @@
+code {
+    color: black;
+    background:rgba(248, 249, 250, 0.65);
+    padding: .1rem .3rem .2rem;
+    border-radius: .2rem;
+}
+
+.white-link a{
+    color: white;
+}
+
+.padded-bottom p{
+    padding-bottom: 4px
+}

@@ -1,0 +1,9 @@
+pandas
+numpy
+dash
+dash-bootstrap-templates
+dash-bootstrap-components
+dash-extensions
+boto3
+pillow
+gunicorn
